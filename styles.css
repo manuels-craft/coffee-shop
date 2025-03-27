@@ -1,0 +1,367 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #3b3b3b;
+  background-image: url("https://themewagon.github.io/Coffo/images/banner-bg.png");
+  background-size: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 90px;
+  color: #fefefd;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h2,
+h3 {
+  margin: 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+a {
+  color: #fefefd;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+/* helper classes  
+------------------------------------------------------------------------------*/
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* link as buttons */
+.link-as-btn {
+  min-width: 175px;
+  display: inline-block;
+  text-align: center;
+  padding: 1rem 0;
+  margin-right: 5px;
+  font-size: 18px;
+  margin: 1rem 0;
+}
+
+.primary {
+  background-color: #f01c1c;
+  color: #fefefd;
+}
+.secondary {
+  background-color: #fefefd;
+  color: #3b3b3b;
+}
+
+.outline{
+  background-color: transparent;
+  color: #3b3b3b;
+  border: 1px solid #3b3b3b;
+}
+
+.red-outline {
+  color: #f01c1c;
+  border: 1px solid #f01c1c;
+}
+
+.white-outline{
+  background-color: transparent;
+  color: #fefefd;
+  border: 1px solid #fefefd;
+}
+
+/* HEADER SECTION 
+------------------------------------------------------------------------------*/
+.header {
+  width: 100%;
+}
+
+/* branding */
+.logo {
+  display: inline-block;
+  margin-right: 100px;
+  padding: 22px 2px 12px 0px;
+}
+
+/* navigation */
+.navigation {
+  display: inline;
+  vertical-align: top;
+}
+
+.menu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline-block;
+  list-style: none;
+}
+.menu li a {
+  background: transparent;
+  display: inline-block;
+  padding: 45px 1.2rem 20px 1.2rem;
+  margin: 0 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* current page */
+.menu .active a {
+  background: #f01c1c;
+}
+
+/* hover */
+.menu li:hover a {
+  background: #f01c1c;
+}
+
+.access-hub {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.access-hub li {
+  display: inline-block;
+  list-style: none;
+}
+.access-hub li:hover a {
+  color: #f01c1c;
+}
+
+.access-hub li a {
+  color: white;
+  background-color: transparent;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+.access-hub img {
+  display: inline-block;
+  width: 30px;
+  vertical-align: middle;
+}
+
+/* HERO SECTION
+----------------------------------------------------------------------------- */
+.hero {
+  height: 647px;
+  width: 100%;
+  padding: 0;
+}
+
+.hero .container {
+  text-align: center;
+  height: 100%;
+}
+
+.hero .content-wrapper {
+  padding-top: 100px;
+  text-align: left;
+  color: white;
+  max-width: 500px;
+}
+
+.hero a {
+  margin-right: 10px;
+}
+
+.hero a:last-of-type:hover{
+  background: red;
+  color: white;
+}
+
+
+/* ABOUT SECTION
+----------------------------------------------------------------------------- */
+.about .container h3{
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.about .left {
+  display: inline-block;
+  width: 48%;
+  padding-right: 2rem;
+  vertical-align: top;
+}
+
+.about .right {
+  display: inline-block;
+  width: 48%;
+}
+
+.about .right img {
+  width: 100%;
+}
+
+/* OFFERS SECTION
+----------------------------------------------------------------------------- */
+.offers {
+  padding-top: 100px;
+}
+
+.offers h2{
+  text-align: center;
+}
+
+.offers .container{
+  overflow: hidden;
+}
+
+.offers .cards-container{
+  margin: 0 auto;
+  font-size: 0;
+  text-align: center;
+}
+
+.offers-card {
+  width: 240px;
+  background-color: #242c2f;
+  color: #fefefd;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 10px;
+  margin-top: 40px;
+}
+
+.offers-card:hover {
+  background-color: red;
+}
+
+.offers-card .text-content{
+  padding: 15px 15px;
+  text-align: center;
+}
+
+.offers-card img{
+  width: 100%;
+}
+
+.offers-card h3,
+.offers-card p,
+.offers-card a{
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.offers-card h3{
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* REVIEWS SECTIONS 
+------------------------------------------------------------------------------*/
+.reviews{
+  padding-top: 100px;
+}
+
+.reviews .image-wrapper,
+.reviews .text-content{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reviews .image-wrapper {
+  margin-right: 50px;
+}
+.reviews .text-content{
+  width:  640px
+}
+
+/* REVIEWS SECTIONS 
+------------------------------------------------------------------------------*/
+.blog{
+  padding-top: 100px;
+}
+
+.blog .cards-container{
+  font-size: 0;
+}
+
+.blog-card{
+  width: 47%;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  padding: 0 1rem;
+}
+
+.ctn-wrapper{
+  border: 1px solid;
+}
+
+.blog-date{
+  padding: 1rem;
+  background: red;
+  display: inline-block;
+  margin-right: 100%;
+  width: 60px;
+  color: white;
+}
+
+.blog-card img{
+  width: 100%;
+}
+
+.blog .text-content{
+  padding: 0 1rem;
+  text-align: left;
+}
+
+/* Footer  
+----------------------------------------------------------*/
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: 100px;
+}
+
+.social-media li{
+  display: inline-block;
+  margin: 0 10px;
+  margin: 2rem 1rem;
+}
+
+footer p{
+  background: red;
+  padding: 2rem;
+  font-size: 1rem;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: -0.5rem;
+  width: 100%;
+  
+}
+
